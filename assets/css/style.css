@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --paracolor: #9f9b9b;
+
+}
+
+
+
+/* styling of main page */
+
+.firstcont {
+    background-color: black !important;
+    position: sticky;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.firstrow {
+    height: 55.19px;
+    background-color: black;
+    position: sticky;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.first-col i {
+    margin-right: 0.5rem;
+    color: #FDD428;
+    opacity: 1;
+    font-size: 1rem;
+
+}
+
+.navbar {
+    font-family: "Poppins", sans-serif;
+    top: 0;
+    color: rgb(42, 56, 85);
+    padding: .063rem;
+    height: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.85);
+
+
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+    z-index: 1015;
+
+    top: 0;
+    left: 0;
+    /* background: transparent; */
+
+}
+
+.styyul {
+    display: flex;
+    list-style: none;
+}
+
+.styyul li {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.styyul li a {
+    color: #2a3855;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.setfont {
+    font-weight: 600;
+}
+
+.mypurch {
+    border: 1px solid black !important;
+    font-size: 14px;
+}
+
+.mycollap {
+    opacity: 1000;
+    z-index: 1000;
+}
+
+/* hero section styling */
+
+.carousel-slide {
+    margin-top: -60px !important;
+    padding-top: 0px !important;
+}
+
+.carousel-item {
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carousel-caption {
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 170px;
+    right: auto;
+    text-align: left;
+    padding-left: 120px;
+}
+
+.carousel-caption h2 {
+    color: #2A3855;
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.carousel-caption p {
+    font-size: 1.77689rem !important;
+    color: #2A3855;
+}
+
+#slider {}
+
+.myico {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.mymore {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(42, 56, 85) !important;
+    box-shadow: transparent 0px 0px 0px !important;
+    border-color: rgb(42, 56, 85) !important;
+    padding: 12px 45px !important;
+    font-size: 12px !important;
+}
+
+.youmore {
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 212, 40);
+    box-shadow: transparent 0px 0px 0px;
+    border-color: rgb(253, 212, 40);
+    padding: 12px 45px !important;
+    font-size: 12px !important;
+}
+
+.myspo {
+    font-size: 20px;
+    position: relative;
+    right: 60px;
+    top: 3px;
+}
+
+.myspo1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255) !important;
+
+    position: relative;
+    right: 60px;
+    top: 3px;
+}
+
+.myico i {
+    position: relative;
+    top: 40px;
+    right: 20px;
+
+}
+
+.myico i {
+    position: relative;
+    top: 40px;
+    right: 20px;
+    text-align: start;
+    justify-content: start;
+
+}
+
+/* Welcome section styling */
+#welcome {
+    padding: 100px;
+
+}
+
+hr {
+    background-color: rgb(42, 56, 85);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.094rem;
+    height: 3px;
+}
+
+.sethead {
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+
+.contentwe h5{
+   color: #2A3855;
+   font-size: 20px;
+   font-weight:800;
+}
+.contentwe p{
+    color: #9f9b9b;
+    font-size: 18px;
+}
+.charm{
+    margin-top: 60px;
+}
+
+.mytur {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #fafafa;
+    border: 1px solid #ddd6d6;
+    margin: auto;
+
+}
+.mhytr span i{
+position:relative ;
+right: 155px;
+top: 38px;
+font-size: 18px;
+font-weight: 700;
+}
+
+
+
+.mytur i {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 40px;
+    color: rgb(42, 56, 85);
+    
+    
+    margin: auto;
+    padding-top: 18px;
+
+}
+.welcimage img{
+    width: 100%;
+  
+}
+.mycol{
+    text-align: left;
+}
+.mainwelcome{
+    color: #2A3855;
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    text-align: left;
+}
+.mainwelcome i{
+    
+    margin-right: 10px;
+}
+.parael{
+    text-align: left;
+    font-size: 17px;
+    color:#9f9b9b;
+}
+
+
+/* services section */
+#services{
+    background-color: #fafafa !important;
+    padding: 100px;
+}
+.mytagg{
+    margin-bottom: 50px;
+}
+.drthead h5{
+    font-size: 20px;
+    font-weight: 800;
+}
+.mycenter{
+    margin-bottom: 4rem;
+}
+
+.bg-holder img{
+    width: 100%;
+    height: 100%;
+    top: 0;left: 0;
+}
+.exiler-caret{
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 100%;
+    bottom: 50%;
+    height: 1.563rem;
+    width: 1.563rem;
+    z-index: 99;
+}
+.exiler-caret1{
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    right: 100%;
+    bottom: 50%;
+    height: 1.563rem;
+    
+
+    width: 1.563rem;
+    z-index: 99;
+}
+.mycusto{
+    position: relative;
+    timeline-scope: 60px;
+    display: grid !important;
+  align-items: center !important;
+    height: 100%;
+}
+.bottomicon span i{
+    font-size: 18px;
+    position: relative;
+    top: -3px;
+    right: 16px;
+    display: inline-block;
+    width: 60px;
+}
+.myfgt{
+    display: flex;
+}
+.myfgt h5{
+    font-size: 23px;
+    font-weight: 800;
+}
+.myfgt i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.setwid{
+    margin-top: 5rem;
+}
+
+
+/* choose section styling */
+#choose{
+    background-color: #fff;
+    padding: 70px;
+}
+.mainwelc{
+    display: flex;
+    align-items: center;
+}
+.mainwelc i{
+font-size: 30px;
+margin-right: 10px
+}
+
+.mainwelc h5{
+    font-size: 22px;
+    font-weight: 800;
+}
+.setfont{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* mainline styling */
+#mainline{
+   margin-top: 70px;
+   height: 173px;
+   margin: auto;
+   padding: 85px;
+}
+#mainline h4{
+    font-size: 25px;
+    font-weight: 900;
+}
+.setrow {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.setbutton{
+    padding: 12.8px 40px;
+
+}
+.setbutton:hover{
+    background-color: none !important;
+}
+
+/* get section styling */
+#get{
+    text-align: center;
+    
+    padding: 100px;
+}
+.setrew img{
+    width: 37px;
+    height: 37px;
+}
+
+    
+    /* second line section styling */
+
+    #seconline{
+padding-top: 7.5rem;
+padding-bottom: 7.5rem;
+    }
+/* media queries */
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        text-align: left;
+
+
+    }
+
+}
