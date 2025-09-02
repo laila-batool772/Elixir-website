@@ -3,7 +3,8 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-:root{
+
+:root {
     --paracolor: #9f9b9b;
 
 }
@@ -204,16 +205,18 @@ hr {
 }
 
 
-.contentwe h5{
-   color: #2A3855;
-   font-size: 20px;
-   font-weight:800;
+.contentwe h5 {
+    color: #2A3855;
+    font-size: 20px;
+    font-weight: 800;
 }
-.contentwe p{
+
+.contentwe p {
     color: #9f9b9b;
     font-size: 18px;
 }
-.charm{
+
+.charm {
     margin-top: 60px;
 }
 
@@ -226,12 +229,13 @@ hr {
     margin: auto;
 
 }
-.mhytr span i{
-position:relative ;
-right: 155px;
-top: 38px;
-font-size: 18px;
-font-weight: 700;
+
+.mhytr span i {
+    position: relative;
+    right: 155px;
+    top: 38px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 
@@ -240,62 +244,72 @@ font-weight: 700;
     display: flex;
     text-align: center;
     justify-content: center;
-    
+
     font-size: 40px;
     color: rgb(42, 56, 85);
-    
-    
+
+
     margin: auto;
     padding-top: 18px;
 
 }
-.welcimage img{
+
+.welcimage img {
     width: 100%;
-  
+
 }
-.mycol{
+
+.mycol {
     text-align: left;
 }
-.mainwelcome{
+
+.mainwelcome {
     color: #2A3855;
     font-size: 25px;
     font-weight: 900;
     display: flex;
     text-align: left;
 }
-.mainwelcome i{
-    
+
+.mainwelcome i {
+
     margin-right: 10px;
 }
-.parael{
+
+.parael {
     text-align: left;
     font-size: 17px;
-    color:#9f9b9b;
+    color: #9f9b9b;
 }
 
 
 /* services section */
-#services{
+#services {
     background-color: #fafafa !important;
     padding: 100px;
 }
-.mytagg{
+
+.mytagg {
     margin-bottom: 50px;
 }
-.drthead h5{
+
+.drthead h5 {
     font-size: 20px;
     font-weight: 800;
 }
-.mycenter{
+
+.mycenter {
     margin-bottom: 4rem;
 }
 
-.bg-holder img{
+.bg-holder img {
     width: 100%;
     height: 100%;
-    top: 0;left: 0;
+    top: 0;
+    left: 0;
 }
-.exiler-caret{
+
+.exiler-caret {
     position: absolute;
     background-color: #fff;
     top: 50%;
@@ -305,26 +319,29 @@ font-weight: 700;
     width: 1.563rem;
     z-index: 99;
 }
-.exiler-caret1{
+
+.exiler-caret1 {
     position: absolute;
     background-color: #fff;
     top: 50%;
     right: 100%;
     bottom: 50%;
     height: 1.563rem;
-    
+
 
     width: 1.563rem;
     z-index: 99;
 }
-.mycusto{
+
+.mycusto {
     position: relative;
     timeline-scope: 60px;
     display: grid !important;
-  align-items: center !important;
+    align-items: center !important;
     height: 100%;
 }
-.bottomicon span i{
+
+.bottomicon span i {
     font-size: 18px;
     position: relative;
     top: -3px;
@@ -332,89 +349,254 @@ font-weight: 700;
     display: inline-block;
     width: 60px;
 }
-.myfgt{
+
+.myfgt {
     display: flex;
 }
-.myfgt h5{
+
+.myfgt h5 {
     font-size: 23px;
     font-weight: 800;
 }
-.myfgt i{
+
+.myfgt i {
     font-size: 20px;
     margin-right: 10px;
 }
-.setwid{
+
+.setwid {
     margin-top: 5rem;
 }
 
 
 /* choose section styling */
-#choose{
+#choose {
     background-color: #fff;
     padding: 70px;
 }
-.mainwelc{
+
+.mainwelc {
     display: flex;
     align-items: center;
 }
-.mainwelc i{
-font-size: 30px;
-margin-right: 10px
+
+.mainwelc i {
+    font-size: 30px;
+    margin-right: 10px
 }
 
-.mainwelc h5{
+.mainwelc h5 {
     font-size: 22px;
     font-weight: 800;
 }
-.setfont{
+
+.setfont {
     font-size: 17px;
     font-weight: 300;
 }
 
 /* mainline styling */
-#mainline{
-   margin-top: 70px;
-   height: 173px;
-   margin: auto;
-   padding: 85px;
+#mainline {
+    margin-top: 70px;
+    height: 173px;
+    margin: auto;
+    padding: 85px;
 }
-#mainline h4{
+
+#mainline h4 {
     font-size: 25px;
     font-weight: 900;
 }
+
 .setrow {
     align-items: center;
     justify-content: center;
     margin: auto;
 
 }
-.setbutton{
+
+.setbutton {
     padding: 12.8px 40px;
 
 }
-.setbutton:hover{
+
+.setbutton:hover {
     background-color: none !important;
 }
 
 /* get section styling */
-#get{
+#get {
     text-align: center;
-    
+
     padding: 100px;
 }
-.setrew img{
+
+.setrew img {
     width: 37px;
     height: 37px;
 }
 
-    
-    /* second line section styling */
 
-    #seconline{
-padding-top: 7.5rem;
-padding-bottom: 7.5rem;
-    }
+/* second line section styling */
+
+#seconline {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #2A3855;
+}
+
+.mycontol {
+    padding: 12.8px;
+    width: 323px;
+    font-size: 14px;
+}
+
+.myhgfrto {
+    padding: 12.8px 0px;
+    width: 323px;
+    font-size: 14px;
+}
+
+/* global section styling */
+#global {
+    padding: 100px;
+    background-color: #fafafa;
+} 
+#global img{
+    width: 100%;
+}
+
+.myflow h5 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.try h6 {
+    font-size: 14px;
+    color: #949494;
+}
+
+p {
+    color: #9f9b9b;
+}
+
+.cardflow {
+    font-size: 17px;
+    color: #9f9b9b;
+}
+
+.card {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+/* .setrower {
+    margin-top: 20px;
+} */
+
+
 /* media queries */
+
+/* center image section */
+#canterimage {
+    margin-top: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 523px;
+display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.overlay{
+    position: absolute;
+   /* position: relative; */
+inset: 0;
+background-color: #596379;
+display: flex;
+opacity: 0.85;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+color: white;
+padding-left: 20px;
+text-align: left;
+   
+}
+
+.mhgfd img {
+    width: 55px;
+    height: 55px;
+}
+
+.mywarn {
+    font-size: 51px !important;
+}
+
+.myflex {
+    padding: 150px;
+    position: relative;
+    right: 175px;
+    top: 54px;
+   
+}
+.posrew{
+    position: relative;
+    bottom: 135px;
+}
+.myrewt>div{
+    font-size: 3rem;
+}
+.myrewt{
+    margin-right:auto -50px;
+    /* margin-left: -20px; */
+}
+
+
+/* testimonial styling */
+#testimonial{
+    padding-top: 7.5rem !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    /* padding-bottom: 5rem !important; */
+}
+#testimonial .carousel-inner, #testimonial .row,#testimonial img{
+    height: 198px;
+
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+#testimonial .setrower >*:last-child{
+margin-bottom: 0 !important;
+}
+.testimonial-text{
+    font-size: 1.333rem;
+}
+.setrower{
+    margin-left: -120px;
+}
+
+/* logo section styling */
+#logo{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px !important;
+    height: 240px;
+    background-color: #f2f2f2;
+}
+#logo .bg-200 .py-6{
+    padding-top: 1rem !important;
+    margin-right: 20px;
+}
 
 @media (max-width: 768px) {
     .carousel-caption {
