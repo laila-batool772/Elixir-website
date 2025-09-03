@@ -8,6 +8,16 @@ body {
     --paracolor: #9f9b9b;
 
 }
+*{
+    transform: none !important;
+}
+nav{
+    overflow: visible !important;
+    transform: none !important;
+     perspective: none !important;
+
+   
+}
 
 
 
@@ -15,17 +25,40 @@ body {
 
 .firstcont {
     background-color: black !important;
-    position: sticky;
+   position: relative;
     margin-bottom: 0;
     padding-bottom: 0;
+    opacity: 3;
+    
 }
 
 .firstrow {
     height: 55.19px;
     background-color: black;
-    position: sticky;
+    /* position: sticky; */
     color: white;
     font-size: 0.7rem;
+}
+.dropdown-toggle{
+   font-size: 16px;
+    font-weight: 600;
+}
+.btn-group{
+    margin-right: -35px !important;
+ 
+}
+.btn-group{
+    border: none !important;
+    /* padding-top: 10px; */
+}
+.contact{
+    padding-top: 7px;
+    font-weight: 600;
+}
+.dropdown-item{
+    padding-left: 0px;
+    font-size: 12px !important;
+    color: #1f1f1f !important;
 }
 
 .first-col i {
@@ -40,6 +73,7 @@ body {
     font-family: "Poppins", sans-serif;
     top: 0;
     color: rgb(42, 56, 85);
+    position: sticky !important;
     padding: .063rem;
     height: 60px;
     padding-bottom: 0px;
@@ -47,9 +81,11 @@ body {
     background-color: rgba(255, 255, 255, 0.85);
 
 
+/* margin-top: 55px; */
+
 
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
-    z-index: 1015;
+    z-index: 3015;
 
     top: 0;
     left: 0;
@@ -86,6 +122,7 @@ body {
     opacity: 1000;
     z-index: 1000;
 }
+
 
 /* hero section styling */
 
@@ -707,6 +744,178 @@ a {
  font-size: 17px;
  color: #fff;
     font-weight: bold;
+}
+
+/*pages section */
+.overlaymy{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh-55px);
+    opacity: 2;
+    z-index: 1;
+    height: 444px;
+    margin-top: 60px;
+    margin-bottom: 7.5rem;
+}
+.maindiv{
+    display: flex;
+}
+.myconta{
+    position: relative;
+    z-index: 2;
+    color: white;
+        
+    top: 170px;
+}
+.mydert h2{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.maindiv h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.maindiv .span1{
+    position: relative;
+    font-size: 23px;
+    bottom: 4px;
+    left: 7px;
+
+}
+.maindiv .span2{
+    position: relative;
+    font-size: 23px;
+    bottom: 4px;
+    right: 7px;
+}
+#mychoose{
+  padding-top: 25rem;
+}
+.myfoomer{
+
+}
+
+/* login page styling */
+.overlay2{
+    position: absolute;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    margin-top: 0px !important;
+    z-index: 0;
+}
+.bg-holder.overlay2::before{
+    content: "";
+        background: rgba(0, 0, 0, 0.4) !important;
+        position: absolute;
+        inset: 0;
+}
+/* .bvfcont{
+    /* position: relative; */
+
+.btn-primary1{
+        color: rgb(255, 255, 255);
+    background-color: rgb(42, 56, 85);
+    box-shadow: transparent 0px 0px 0px;
+    border-color: rgb(42, 56, 85);
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    font-size: 12px;
+    
+}
+.btn-primary:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 56, 85);
+    box-shadow: transparent 0px 0px 0px;
+    border-color: rgb(42, 56, 85);
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.225em;
+    vertical-align: top;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    appearance: none;
+    print-color-adjust: exact;
+    background-position: center center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-image: initial;
+}
+
+/* registration form styling */
+.overlay1{
+    position: absolute;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    margin-top: 0px !important;
+    z-index: 0;
+}
+.bg-holder.overlay1::before{
+    content: "";
+        background: rgba(0, 0, 0, 0.55) !important;
+        position: absolute;
+        inset: 0;
+}
+.myconrol1{
+    color: #6a6a6a;
+    font-size: 12px;
+    background-color: #fafafa;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+}
+.myconrol2{
+    background-color: #fafafa;
+    
+
+
+}
+.paginav{
+    margin-top: 50px;
+}
+.page-link{
+    color: black;
+    min-width: 35px;
+}
+.link2{
+    background-color: black;
+    color: white;
+}
+
+
+/* news section styling */
+
+#news1{
+    padding-top: 25rem;
+    padding-bottom: 7.5rem;
+    background-color: #fafafa;
+}
+
+
+/* global section styling */
+#global1{
+    padding-top: 25rem;
+    background-color: #fafafa;
+    padding-bottom: 7.5rem;
+
+}
+
+/* mainline1 */
+.mainline1{
+    background-color: #2A3855;
 }
 
 @media (max-width: 768px) {
