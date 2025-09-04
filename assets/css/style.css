@@ -8,15 +8,17 @@ body {
     --paracolor: #9f9b9b;
 
 }
-*{
+
+* {
     transform: none !important;
 }
-nav{
+
+nav {
     overflow: visible !important;
     transform: none !important;
-     perspective: none !important;
+    perspective: none !important;
 
-   
+
 }
 
 
@@ -25,11 +27,11 @@ nav{
 
 .firstcont {
     background-color: black !important;
-   position: relative;
+    position: relative;
     margin-bottom: 0;
     padding-bottom: 0;
     opacity: 3;
-    
+
 }
 
 .firstrow {
@@ -39,23 +41,28 @@ nav{
     color: white;
     font-size: 0.7rem;
 }
-.dropdown-toggle{
-   font-size: 16px;
+
+.dropdown-toggle {
+    font-size: 16px;
     font-weight: 600;
 }
-.btn-group{
+
+.btn-group {
     margin-right: -35px !important;
- 
+
 }
-.btn-group{
+
+.btn-group {
     border: none !important;
     /* padding-top: 10px; */
 }
-.contact{
+
+.contact {
     padding-top: 7px;
     font-weight: 600;
 }
-.dropdown-item{
+
+.dropdown-item {
     padding-left: 0px;
     font-size: 12px !important;
     color: #1f1f1f !important;
@@ -81,7 +88,7 @@ nav{
     background-color: rgba(255, 255, 255, 0.85);
 
 
-/* margin-top: 55px; */
+    /* margin-top: 55px; */
 
 
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
@@ -658,7 +665,8 @@ p {
     border: 1px solid white;
     border-radius: 20px !important;
 }
-.customcard img{
+
+.customcard img {
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -733,22 +741,24 @@ a {
 
 
 /* footer section styling */
-.footer{
+.footer {
     background-color: #2A3855;
 }
-.setrosid{
+
+.setrosid {
     font-size: 17px;
     color: #fff;
 }
-.theset{
- font-size: 17px;
- color: #fff;
+
+.theset {
+    font-size: 17px;
+    color: #fff;
     font-weight: bold;
 }
 
 /*pages section */
-.overlaymy{
-    position:absolute;
+.overlaymy {
+    position: absolute;
     top: 0;
     left: 0;
     background-position: center bottom;
@@ -761,46 +771,52 @@ a {
     margin-top: 60px;
     margin-bottom: 7.5rem;
 }
-.maindiv{
+
+.maindiv {
     display: flex;
 }
-.myconta{
+
+.myconta {
     position: relative;
     z-index: 2;
     color: white;
-        
+
     top: 170px;
 }
-.mydert h2{
+
+.mydert h2 {
     font-size: 4rem;
     font-weight: 800;
 }
-.maindiv h3{
+
+.maindiv h3 {
     font-size: 22px;
     font-weight: 700;
 }
-.maindiv .span1{
+
+.maindiv .span1 {
     position: relative;
     font-size: 23px;
     bottom: 4px;
     left: 7px;
 
 }
-.maindiv .span2{
+
+.maindiv .span2 {
     position: relative;
     font-size: 23px;
     bottom: 4px;
     right: 7px;
 }
-#mychoose{
-  padding-top: 25rem;
-}
-.myfoomer{
 
+#mychoose {
+    padding-top: 25rem;
 }
+
+.myfoomer {}
 
 /* login page styling */
-.overlay2{
+.overlay2 {
     position: absolute;
     height: 100vh;
     background-position: center;
@@ -810,26 +826,34 @@ a {
     margin-top: 0px !important;
     z-index: 0;
 }
-.bg-holder.overlay2::before{
+
+.bg-holder.overlay2::before {
     content: "";
-        background: rgba(0, 0, 0, 0.4) !important;
-        position: absolute;
-        inset: 0;
+    background: rgba(0, 0, 0, 0.4) !important;
+    position: absolute;
+    inset: 0;
 }
+
+.form-control {
+    color: rgb(106, 106, 106) !important;
+    border: 1px solid #e1e1e1 !important;
+}
+
 /* .bvfcont{
     /* position: relative; */
 
-.btn-primary1{
-        color: rgb(255, 255, 255);
+.btn-primary1 {
+    color: rgb(255, 255, 255);
     background-color: rgb(42, 56, 85);
     box-shadow: transparent 0px 0px 0px;
     border-color: rgb(42, 56, 85);
     padding-top: 12.8px;
     padding-bottom: 12.8px;
     font-size: 12px;
-    
+
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(42, 56, 85);
     box-shadow: transparent 0px 0px 0px;
@@ -854,7 +878,7 @@ a {
 }
 
 /* registration form styling */
-.overlay1{
+.overlay1 {
     position: absolute;
     height: 100vh;
     background-position: center;
@@ -864,33 +888,39 @@ a {
     margin-top: 0px !important;
     z-index: 0;
 }
-.bg-holder.overlay1::before{
+
+.bg-holder.overlay1::before {
     content: "";
-        background: rgba(0, 0, 0, 0.55) !important;
-        position: absolute;
-        inset: 0;
+    background: rgba(0, 0, 0, 0.55) !important;
+    position: absolute;
+    inset: 0;
 }
-.myconrol1{
+
+.myconrol1 {
     color: #6a6a6a;
     font-size: 12px;
     background-color: #fafafa;
     padding-top: 12.8px;
     padding-bottom: 12.8px;
 }
-.myconrol2{
+
+.myconrol2 {
     background-color: #fafafa;
-    
+
 
 
 }
-.paginav{
+
+.paginav {
     margin-top: 50px;
 }
-.page-link{
+
+.page-link {
     color: black;
     min-width: 35px;
 }
-.link2{
+
+.link2 {
     background-color: black;
     color: white;
 }
@@ -898,7 +928,7 @@ a {
 
 /* news section styling */
 
-#news1{
+#news1 {
     padding-top: 25rem;
     padding-bottom: 7.5rem;
     background-color: #fafafa;
@@ -906,7 +936,7 @@ a {
 
 
 /* global section styling */
-#global1{
+#global1 {
     padding-top: 25rem;
     background-color: #fafafa;
     padding-bottom: 7.5rem;
@@ -914,8 +944,200 @@ a {
 }
 
 /* mainline1 */
-.mainline1{
+.mainline1 {
     background-color: #2A3855;
+}
+
+/* new news section styling */
+#nenews {
+    background-color: #fafafa;
+}
+
+.setasole {
+    background-color: #e0e0e0;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.setasole i {
+    font-size: 25px;
+    position: relative;
+    bottom: 6px;
+
+}
+
+.newfont {
+    color: #9c99a0;
+    font-size: 17px;
+}
+
+.newmargin {
+    margin-top: 40px;
+}
+
+.newfonthead {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dropcap {
+    /* color: rgba(159,161,181,255); */
+    font-size: 17px;
+}
+
+.firstletter {
+    font-size: 40px;
+    color: #1f1f1f;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+}
+
+.setlinesi:hover {
+    text-decoration: underline;
+}
+
+ol li p {
+    color: #7a6d6d;
+
+}
+
+.bottomicon1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+.bottomicon1 span i {
+    position: relative;
+    right: 20px;
+}
+
+.mybody {
+    padding: 25px;
+}
+
+.setpadd {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px 30px;
+    margin-bottom: 30px !important;
+}
+
+.mypad {
+    font-size: 21.38px;
+    font-weight: 700;
+}
+
+.setpad {
+    font-size: 28.38px;
+    font-weight: 700;
+}
+
+.sentmy {
+    color: rgb(106, 106, 106);
+    font-size: 14px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+}
+
+.sethover:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2A3855;
+}
+
+.stmute {
+    /* width:50px */
+}
+
+.setradiusbu {
+    border-radius: 0px !important;
+    font-size: 14px;
+    padding: 12.8px 40px;
+}
+
+/* contactpage */
+#mycontact {
+    background-color: #fafafa;
+    padding-top: 25rem;
+}
+
+#mycontact h5 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.contacticon {
+    padding: ;
+    font-size: 22px;
+    height: 25px;
+    width: 25px;
+    background-color: #2A3855;
+    color: white;
+    margin-right: 15px;
+}
+
+.contacticon i {
+    position: relative;
+    bottom: 4px;
+
+}
+
+.gm-err-container {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: #e8eaed;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.gm-err-content {
+    border-radius: 1px;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: static;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.gm-err-icon {
+    text-align: center;
+}
+
+.gm-err-title {
+    margin: 5px;
+    margin-bottom: 20px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.gm-err-message {
+    margin: 5px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+.foomer{
+    margin-top: 10rem;
+    padding-top: 10rem;
 }
 
 @media (max-width: 768px) {
