@@ -2,6 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    transform: none !important;
 }
 
 :root {
@@ -78,7 +79,7 @@ nav {
 
 .navbar {
     font-family: "Poppins", sans-serif;
-    top: 0;
+    top: 0 !important;
     color: rgb(42, 56, 85);
     position: sticky !important;
     padding: .063rem;
@@ -299,7 +300,8 @@ hr {
 }
 
 .welcimage img {
-    width: 100%;
+    width: 1108px;
+    height: 600px;
 
 }
 
@@ -1138,7 +1140,22 @@ h6 {
 .foomer{
     margin-top: 10rem;
     padding-top: 10rem;
-}
+
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;}
+    .myffomer{
+        margin-top: 6rem;
+    }
 
 @media (max-width: 768px) {
     .carousel-caption {
